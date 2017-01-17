@@ -1,0 +1,25 @@
+import java.awt.Graphics2D;
+
+public class House 
+{
+  private int x;
+  private int y;
+  
+  //private int size = 50;
+  
+  public FigureX (int _x , int _y)
+  {
+    x= _x;
+    y= _y;
+  }
+  
+   public void drawWith (Graphics2D g2d)
+  {
+    g2d.drawLine (x - size, y - size, x - size, y + size);
+    g2d.drawLine (x - size, y - size, x + size, y - size);
+    g2d.drawLine (x + size, y - size, x + size, y + size);
+    g2d.drawLine (x - size, y + size, x + size, y + size);
+    g2d.drawLine (x - size, y + size, x , y + size);
+    g2d.drawLine (x + size, y + size, x, y + size);
+  }
+}

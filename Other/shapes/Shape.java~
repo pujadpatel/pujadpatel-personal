@@ -1,0 +1,41 @@
+//Inheritance
+
+public class Shape
+{
+  private int x;
+  privat int y;
+  
+  public Shape (int _x,int _y)
+  {
+    x=_x;
+    y=_y;
+  }
+  //acesssor method
+  public int getx()
+  {
+    return x;
+  }
+  public int getY()
+  {
+    return y;
+  }
+  //mutator method
+  public void translate ( int dx, int dy)
+  {
+    x +=dx;
+    y +=dy;
+  }
+  public String toString()
+  {
+    return "Shape 0 " + x + "," + y;
+  }
+  public double getPerimeter()
+  {
+    
+  }
+  
+  public double getArea()
+  {
+    return 0 .0;
+  }
+  

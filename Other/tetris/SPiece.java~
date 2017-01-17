@@ -1,0 +1,2 @@
+public class SPiece extends TetrisPanel
+  

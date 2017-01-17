@@ -1,0 +1,12 @@
+public class Square extends Rectangle
+{
+  public Square ( int _x, int _y, double _side)
+  {
+    super ( _x, _y, _side, _side);
+    
+  }
+  public String shapeType()
+  {
+    return "Square";
+  }
+}

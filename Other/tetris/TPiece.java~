@@ -1,0 +1,24 @@
+public classTPiece extends TetrisPiece
+{
+  private int myX;
+  private int myY;
+  
+  private char direction;
+  
+  public IPiece (int _x, int _y)
+  {
+    direcion = 't';
+  }
+  
+  public void clockwise()
+  {
+    if (direction == 't')
+    {
+      direction = 'S';
+    }
+    else if (direction == 'S');
+      {
+        direction = 'W';
+      }
+  }
+}
